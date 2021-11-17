@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand, .pdg{
+  font-family: 'Pacifico', cursive;
+}
+
+.redheart{
+  background-image: url(../images/Redyarn.jpg);
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pdg{
+  /* padding-top: 10rem; */
+}
+.pdg h1{
+  font-size: 7rem;
+}
+.pictures img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.pictures img:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.about-us{
+  background-color: #B11226;
+}
+
+.txtabt{
+  text-align: justify;
+}
+
+.red-images{
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+
+}
+
+.pic{
+  background-image: url(../images/smilingwoman.jpg);
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.contact-us{
+  background-color: #B11226;
+}
